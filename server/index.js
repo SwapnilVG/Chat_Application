@@ -21,9 +21,9 @@ app.use(cookieParser());
 
 // CORS configuration
 const allowedOrigins = [
+  "https://chat-application-frontend-hwu6bb88x-swapnil-gadekars-projects.vercel.app/",
   "http://localhost:5173",
-  "https://chat-application-frontend-roan.vercel.app/"
-
+  
 ];
 const corsOptions = {
   origin: (origin, callback) => {
