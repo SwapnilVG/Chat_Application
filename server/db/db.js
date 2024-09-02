@@ -6,10 +6,7 @@ mongoose.set('strictQuery', false);
 const connectDB = async () => {
     try {
         // Attempt to connect to MongoDB
-        const connection = await mongoose.connect(process.env.DB || "mongodb://127.0.0.1:27017/Chat_Application", {
-            useNewUrlParser: true,
-            useUnifiedTopology: true,
-        });
+        const connection = await mongoose.connect(process.env.DB || "mongodb://127.0.0.1:27017/Chat_Application");
 
         // Log successful connection
         if (connection) {

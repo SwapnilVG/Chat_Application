@@ -1,6 +1,8 @@
-## Getting Started
 
-Follow the instructions below to set up and run the Chat App locally on your machine.
+## Flow of website
+
+![flow](https://i.imgur.com/trbch64.png)
+
 
 ### Installation
 
@@ -70,5 +72,14 @@ SMTP_PASS=""
 NODE_ENV=development
 ```
 
+## Snapshots
+
+Here are some snapshots of the project:
+
+![Home Screen](/images/Home.jpg)
+![Login](/images/login.jpg)
+![Register](/images/register.jpg)
+![ChatHome](/images/Chat.jpg)
+![Profile](/images/profile.jpg)
 
 
